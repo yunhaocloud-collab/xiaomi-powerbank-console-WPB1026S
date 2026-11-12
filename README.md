@@ -12,8 +12,6 @@
 - **[下载完整源码包](xiaomi-powerbank-console-WPB1026S-source.zip)**
 - [WPB1026S 操作与验证说明](WPB1026S_QI2.md)
 
-本仓库以完整 ZIP 源码包交付。解压后包含 src、public、scripts、docs、自动测试、依赖锁文件及 Cloudflare Pages 配置，保留原目录结构；不包含 node_modules、登录凭据或构建缓存。打开 ZIP 文件页面后点击下载按钮即可保存。
-
 ## 功能
 
 - 通过 WebHID 连接小米移动电源，显示型号、电量、健康度、循环次数、温度、电芯信息和异常记录。
