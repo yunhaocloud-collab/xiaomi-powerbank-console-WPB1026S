@@ -1,4 +1,4 @@
-<img width="1438" height="1059" alt="image" src="https://github.com/user-attachments/assets/3f76f189-3e84-4841-aa9f-3dd2c904d7ed" /># Xiaomi Power Bank Console · WPB1026S Qi2.2
+# Xiaomi Power Bank Console · WPB1026S Qi2.2
 
 基于 [LOSRET/xiaomi-powerbank-console](https://github.com/LOSRET/xiaomi-powerbank-console) 扩展的 Vue 3 + TypeScript + WebHID 小米移动电源详情工具。
 
