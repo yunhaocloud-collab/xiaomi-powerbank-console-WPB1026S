@@ -1,4 +1,4 @@
-# Xiaomi Power Bank Console · WPB1026S Qi2.2
+<img width="1438" height="1059" alt="image" src="https://github.com/user-attachments/assets/3f76f189-3e84-4841-aa9f-3dd2c904d7ed" /># Xiaomi Power Bank Console · WPB1026S Qi2.2
 
 基于 [LOSRET/xiaomi-powerbank-console](https://github.com/LOSRET/xiaomi-powerbank-console) 扩展的 Vue 3 + TypeScript + WebHID 小米移动电源详情工具。
 
@@ -7,6 +7,8 @@
 ## 在线使用与完整源码
 
 - **在线网站：[mipluswpb1026s.pages.dev](https://mipluswpb1026s.pages.dev/)**
+- <img width="1438" height="1059" alt="J6HVK_~69{9E9{FB}5~P IA" src="https://github.com/user-attachments/assets/a067aa82-8670-4323-a663-a059037080c0" />
+
 - **[下载完整源码包](xiaomi-powerbank-console-WPB1026S-source.zip)**
 - [WPB1026S 操作与验证说明](WPB1026S_QI2.md)
 
@@ -17,8 +19,6 @@
 - 通过 WebHID 连接小米移动电源，显示型号、电量、健康度、循环次数、温度、电芯信息和异常记录。
 - 保留 WPB1025S 的 Qi2.2 开关，新增 WPB1026S 加密设置协议。
 - 每次设置根据当前设备和本次握手生成命令；设备确认成功且状态回读一致后才显示操作成功。
-- 开启前检测公网 IP 地区：中国大陆、检测失败或超时均禁止开启；非大陆地区需知情同意，提交时再次检测。关闭不受地区检测限制。
-- 中英双语、通信日志、支持型号说明；移除首页“查看演示数据”按钮及第三方访问统计脚本。
 - 设备数据在浏览器本地处理；地区检测调用 country.is，不携带设备数据。
 
 ## 连接方法
@@ -30,13 +30,6 @@
 
 Firefox、Safari 以及手机浏览器不支持本工具所需的 WebHID。必须使用 HTTPS 或 localhost。
 
-## 验证范围
-
-类型检查、112 项自动测试和正式构建均已通过。用户反馈原 Python 修复程序已能成功开启 WPB1026S；**浏览器移植版和关闭操作仍需实机验证**，不能据此保证所有固件兼容。
-
-“已开启”表示设备返回的设置位已开启，不证明手机正在使用 Qi2.2 或达到特定充电功率。请按操作说明验证开启、关闭及断开重连后的状态。
-
-IP 地区检测不能证明实际所在地，也不是防篡改的访问控制。
 
 ## 本地运行与部署
 
